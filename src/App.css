@@ -1,0 +1,62 @@
+body {
+  background: url('./bg.svg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.submitBtn {
+  margin-top: 40px;
+}
+.input-group {
+  margin-top: 40px;
+}
+.input-group .ant-input {
+  margin-top: 6px;
+}
+.textColor {
+  color: #622c7d;
+}
+.logosect {
+  width: 30px;
+  margin-bottom: 6px;
+}
+.ch-form {
+  margin-top: 35px;
+}
+.ch-form .ant-form-item-control {
+  line-height: 27px;
+}
+
+.ch-form .ant-form-item {
+  margin-bottom: 12px;
+}
+
+.ant-calendar-picker,
+.ant-input-number {
+  width: 100% !important;
+}
+
+.cardAfri {
+  margin: 0 auto !important;
+  margin-top: 67px !important;
+}
+.userTable {
+  margin: 30px 0px;
+}
+.userTable th {
+  text-align: inherit;
+  padding: 14px 14px;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 12px;
+}
+.userTable td {
+  padding: 13px 11px;
+  font-size: 12px;
+}
+
+.usertable {
+  margin-top: 45px;
+}
+td .ant-tag {
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
