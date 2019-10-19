@@ -3,7 +3,7 @@
 Overview
 **The challenge at hand was meant to test my understanding of the [React JS](https://reactjs.org/docs/getting-started.html) library and ability to deploy a simple application to the web..**
 
-![Enye Challenge View - Adeniran Opeyemi](https://picasaweb.google.com/108512913983727128507/6749483450774398545#6749483454105019410 'Enye Challenge View - Adeniran Opeyemi')
+![Enye Challenge View - Adeniran Opeyemi](<[https://raw.githubusercontent.com/Horpey/Enye-Reactjs-Challenge/master/src/Enye-View.png](https://raw.githubusercontent.com/Horpey/Enye-Reactjs-Challenge/master/src/Enye-View.png)> 'Enye Challenge View - Adeniran Opeyemi')
 
 ## **Challenge**
 
