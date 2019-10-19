@@ -1,15 +1,16 @@
 # Enye Cohort 3: Coding Challenge 1
 
 Overview
+
 **The challenge at hand was meant to test my understanding of the [React JS](https://reactjs.org/docs/getting-started.html) library and ability to deploy a simple application to the web..**
 
-![Enye Challenge View - Adeniran Opeyemi](<[https://raw.githubusercontent.com/Horpey/Enye-Reactjs-Challenge/master/src/Enye-View.png](https://raw.githubusercontent.com/Horpey/Enye-Reactjs-Challenge/master/src/Enye-View.png)> 'Enye Challenge View - Adeniran Opeyemi')
+![Image of Yaktocat](https://raw.githubusercontent.com/Horpey/Enye-Reactjs-Challenge/master/src/Enye-View.png)
 
 ## **Challenge**
 
-1.  Build a user form that updates a user table upon submission.
+1. Build a user form that updates a user table upon submission.
 
-2.  After building your application, deploy it to the web.
+2) After building your application, deploy it to the web.
 
 ## **Requirements**
 
@@ -17,19 +18,19 @@ Overview
 
 * First Name
 
-* Last Name
+- Last Name
 
 * Birthday (must be a calendar component)
 
-* Age
+- Age
 
 * Hobby
 
 - Clicking the form submit button should automatically update the user table.
 
-- Use one of the following platforms to deploy your application:
+* Use one of the following platforms to deploy your application:
 
-* [Firebase](https://www.robinwieruch.de/firebase-deploy-react-js) (recommended)
+- [Firebase](https://www.robinwieruch.de/firebase-deploy-react-js) (recommended)
 
 * [Heroku](https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f)
 
@@ -37,7 +38,7 @@ Overview
 
 * [Ant Design](https://ant.design/docs/react/getting-started) (Was Used)
 
-* [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+- [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 
 * [Material UI](https://material-ui.com/getting-started/installation/)
 
