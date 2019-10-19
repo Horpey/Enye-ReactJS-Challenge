@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tag, Button } from 'antd';
+import { Tag } from 'antd';
 
 export class UserTable extends Component {
   render() {
@@ -36,9 +36,6 @@ export class UserTable extends Component {
             ))}
           </tbody>
         </table>
-        <Button onSubmit={this.handleSubmit} type='dashed' icon='left'>
-          Send New Details
-        </Button>
       </div>
     );
   }

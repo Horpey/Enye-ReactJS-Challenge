@@ -56,7 +56,7 @@ export class Userform extends Component {
         }
       ]
     });
-    console.log(this.state.userDetails);
+    // console.log(this.state.userDetails);
     this.setState({
       show: !this.state.show,
       showTable: !this.state.showTable
@@ -65,7 +65,7 @@ export class Userform extends Component {
 
   handleClose = removedTag => {
     const tags = this.state.tags.filter(tag => tag !== removedTag);
-    console.log(tags);
+    // console.log(tags);
     this.setState({ tags });
   };
 
@@ -83,7 +83,7 @@ export class Userform extends Component {
     if (inputValue && tags.indexOf(inputValue) === -1) {
       tags = [...tags, inputValue];
     }
-    console.log(tags);
+    // console.log(tags);
     this.setState({ hobby: tags });
 
     this.setState({
@@ -95,11 +95,8 @@ export class Userform extends Component {
 
   saveInputRef = input => (this.input = input);
 
-  log = e => {
-    console.log(e);
-  };
   changeDate = (date, dateString) => {
-    console.log(date, dateString);
+    // console.log(date, dateString);
     let birthYear = new Date(dateString);
     if (!isNaN(birthYear)) {
       var userAge = new Date().getFullYear() - birthYear.getFullYear();
@@ -110,11 +107,6 @@ export class Userform extends Component {
   disabledDate = current => {
     // Can not select days before today and today
     return current > moment().endOf('day');
-  };
-
-  preventDefault = e => {
-    e.preventDefault();
-    console.log('Clicked! But prevent default.');
   };
 
   render() {
@@ -278,9 +270,6 @@ export class Userform extends Component {
               </QueueAnim>
             </Card>
           </Col>
-          {/* <Col xs={24} sm={24} md={8} lg={8} xl={8}>
-           
-          </Col> */}
         </Row>
       </div>
     );
