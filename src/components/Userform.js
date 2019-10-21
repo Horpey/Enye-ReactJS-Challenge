@@ -189,7 +189,6 @@ export class Userform extends Component {
                                   className='formInput'
                                   id='age'
                                   block
-                                  disabled={true}
                                   value={this.state.age}
                                   onChange={event =>
                                     this.setState({ age: event })
