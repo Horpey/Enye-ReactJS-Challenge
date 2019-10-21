@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import UserTable from './UserTable';
 import moment from 'moment';
 import QueueAnim from 'rc-queue-anim';
+import { useDispatch } from 'react-redux';
+import { addNewUser } from '../actions/table';
 
 import {
   Form,
@@ -45,17 +47,24 @@ export class Userform extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-    this.setState({
-      userDetails: [
-        {
-          firstName: this.state.firstName,
-          lastName: this.state.lastName,
-          age: this.state.age,
-          hobby: this.state.hobby,
-          birthday: this.state.birthday
-        }
-      ]
+    this.props.onSubmit({
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      age: this.state.age,
+      hobby: this.state.hobby,
+      birthday: this.state.birthday
     });
+    // this.setState({
+    //   userDetails: [
+    //     {
+    //       firstName: this.state.firstName,
+    //       lastName: this.state.lastName,
+    //       age: this.state.age,
+    //       hobby: this.state.hobby,
+    //       birthday: this.state.birthday
+    //     }
+    //   ]
+    // });
     // console.log(this.state.userDetails);
     this.setState({
       show: !this.state.show,
@@ -276,4 +285,11 @@ export class Userform extends Component {
   }
 }
 
-export default Userform;
+export default function ConnectUserForm(props) {
+  const dispatch = useDispatch();
+  function handleFormSubmit(values) {
+    dispatch(addNewUser(values));
+  }
+
+  return <Userform {...props} onSubmit={handleFormSubmit} />;
+}
